@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.w3.org/1999/xhtml" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/color-glass/48/resume-website.pngdata1" type="image/x-icon">
+
+</head>
+<body>
+<img class="foto" src="assets/foto-perfil.jpg">
+    <p th:text="${nome}"></p>
+    <p th:text="${celular}"></p>
+    <p th:text="${email}"></p>
+    <p th:text="${github}"></p>
+<h1>Experiência Profissional</h1>
+    <p th:text="${empresa1}"></p>
+    <p th:text="${cargo1}"></p>
+    <p th:text="${data_emprego1}"></p>
+    <p th:text="${empresa2}"></p>
+    <p th:text="${cargo2}"></p>
+    <p th:text="${data_emprego2}"></p>
+<h1>Formação</h1>
+    <p th:text="${faculdade}"></p>
+    <p th:text="${curso}"></p>
+    <p th:text="${data_curso}"></p>
+<h1>Conhecimentos</h1>
+    <p th:text="${java}"></p>
+    <p th:text="${javascript}"></p>
+    <p th:text="${python}"></p>
+    <p th:text="${css}"></p>
+    <p th:text="${html}"></p>
+    <p th:text="${git}"></p>
+    <p th:text="${sql}"></p>
+    <p th:text="${spring}"></p>
+</body>
+</html>
